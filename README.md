@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Shoping Spree
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### This website is going to be built using the following tech stacks:
+-	React.Js (Front-end)
+-	Redux(State management tool)
+-	Ruby on Rails (Back-end)
+-	PostgreSql (Database)
 
-## Available Scripts
 
-In the project directory, you can run:
+## Brief summary of this project
+This project is going to consist of 3 different Front-ends, each of the front-end’s will serve its own purpose, have it’s own contents, has it’s own dedicated users, it’s own restrictions etc.
+### Types of the different front-ends:
+-	**General user Front-end**: This will consist of the ordering of items, user authentication, views of products according to markets, view of products according to categories, view of products according to store ratings(this will be a future feature). This version is very similar to regular online e-commerce webites too.
+-	**Market view Front-end**: This will be for store owners. It will have its own features such as Authentication, view of his/her store, products in the store also and as well as seeing his sales
+-	**Admin Dashboard**: This will be restricted to only Admins. The admin will be the one authorized to add items according to category, modify products, add and remove stores and products. The dashboard will display all users, all products and all orders by every user on the platform.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## **Project Requirements**
+#### 1. User  interface:
+ -	A user should be able to login, register, signout (Why person no go fit login into his own account sef?)
+ -	A user should be able to view all products
+ -	A user should be able to view all stores
+ -	A user should be able to view the details of any item
+ -	A user should be able to view all products in any store
+ -	A user should be able to view the description of any store while on the details page
+ -	A user should be able to add items to cart
+ -	A user should be able to view cart details
+ -	If user clicks on any item in his cart, It should take him to product details
+ -	A user should be able to select the amount of items he wants to order
+ -	A user should be able to delete items in his cart
+ -	A user should be able to search  for products based on name
+ -	There should be a filter option where the user can filter through via amount or category
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### 2.	Store Interface:
+ -	A store owner should be able to login to hi account.
+ -	The store owner should be able to see a list of all his products
+ -	The store owner should be able to see all his orders
+ -	The store owner should be able to see the total amount he has made from sale
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### 3.	Admin Dashboard:
+ -	Admin should be able to login and register
+ -	Admin should be able to view the lists of every store
+ -	Admin should be able to delete any store (extra feature)
+ -	Admin should be able to view all products according to category
+ -	Admin should be able to see every order
+ -	Admin should be able to see the total amount that every store has sold
+ -	Admin should be able to add and modify products.
